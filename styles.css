@@ -1,0 +1,129 @@
+/* Resetting some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background: #3a86ff;
+    color: #fff;
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 1.5em;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 1em;
+    background: #a8dadc;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
+  
+  .hero button {
+    padding: 0.7em 1.5em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #3a86ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #0077b6;
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 1em;
+    background-color: #e9ecef;
+  }
+  
+  .feature-card {
+    width: 30%;
+    padding: 1.5em;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 3em 1em;
+    text-align: center;
+    background: #f1faee;
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 3em 1em;
+    text-align: center;
+    background: #a8dadc;
+  }
+  
+  .contact h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 1em;
+    text-align: center;
+    background: #3a86ff;
+    color: #fff;
+  }
+  
